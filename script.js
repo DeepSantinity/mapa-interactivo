@@ -14,7 +14,7 @@ map.on('click', function(e) {
    puntos.push([e.latlng.lat, e.latlng.lng]);
 
 
-   if (puntos.length === 2) {
+   if (puntos.length === 4) {
        L.polyline(puntos, { color: 'blue' }).addTo(map);
    }
 });
